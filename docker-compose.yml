@@ -44,6 +44,8 @@ services:
         image: kunstmaan/explorer-multichain
         stdin_open: true
         tty: true
+        ports:
+            - "2750:2750"
         expose:
             - 2750
             - 7447
